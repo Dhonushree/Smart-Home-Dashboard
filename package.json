@@ -1,5 +1,5 @@
 {
-  "name": "smart-home-dashboard",
+   "name": "smart-home-dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -48,5 +48,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+    "homepage": "https://Dhonushree.github.io/smart-home-dashboard",
+      "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
   }
 }
